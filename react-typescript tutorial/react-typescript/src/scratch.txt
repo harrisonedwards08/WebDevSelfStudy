@@ -1,0 +1,43 @@
+<br></br>
+<div>
+
+{/* calling components, passing props, rendering components */}
+  {/* name prop. props are mandatory without ? in definition*/}
+
+<Greet name = 'Harry' messages={15} isAuthenticated={true} />
+<Person name = {personName}/>
+<PersonList names = {nameList}/></div>
+
+
+ const personName = {
+    first: 'Harrison',
+    last: 'Ford',
+  }
+  const nameList = [
+    {
+      first: 'Harrison',
+      last: 'Ford',
+    },
+    {
+      first: 'Mark',
+      last: 'Hamill',
+    },
+    {
+      first: 'Carrie',
+      last: 'Fisher',
+    }
+  ]
+
+
+
+
+
+
+
+
+
+
+      <Status status = 'success'/>
+      <Heading>Leo!!!</Heading>
+      <Oscar><Heading>Leo!!!</Heading></Oscar>
+      <Greet name = 'Harry'  isAuthenticated = {true}/>
