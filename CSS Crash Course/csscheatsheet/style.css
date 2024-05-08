@@ -1,0 +1,41 @@
+/* ids should not be reused */
+
+body {
+    color: rgb(5, 3, 5);
+    background-color: #f4f4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+
+    
+}
+
+h1:hover{
+    color:rgb(218, 21, 191)
+
+}
+
+p {
+    line-height: 1.6em;
+
+}
+.box1{
+    background-color: aliceblue;
+    margin: 50px;
+    padding: 10px;
+
+    /* border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid; */
+
+    border: 5px red solid;
+
+
+
+}
+
+.container{
+    width: 80%;
+    margin:auto
+}

@@ -2,8 +2,23 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        'td-width': '200px',
+      },
+      height: {
+        'td-height': '200px',
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    function({ addComponents }) {
+      addComponents({
+        '.container': {
+          maxWidth: '100%',
+        }
+      })
+    }
+  ],
 }
 

@@ -1,7 +1,7 @@
 .button-link{
-    background-color: #c01616;
+    background-color: #e95555;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 25px;
     color: #333;
     display: inline-block;
     font-size: 50px;
@@ -10,4 +10,19 @@
     text-align: center;
     text-decoration: none;
     transition: background-color 0.3s;
+    transition-duration: .8s;
+
+}
+
+.button-link:hover{
+    background-color: #333;
+    color: #e95555;
+}
+
+.clicked{
+    background-color: #333;
+    color: #e95555;
+    margin: 0 5px;
+    padding: 5px 10px;
+
 }

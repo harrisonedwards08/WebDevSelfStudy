@@ -6,12 +6,39 @@
     <title>Favorite Things</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-cyan-200 ">
+<body class="bg-cyan-200  ">
     <h1 class = 'text-center text-3xl'>My Favorite Things</h1>
-    <div class = 'container bg-cyan-300 width'>Here's a Div</div>
-    <button class = 'bg-cyan-500 text-white hover:bg-cyan-700'>Click Me</button>
+    <div class="flex justify-center">
+        <div class='container bg-cyan-300 w-21 text-center'>Here's a Div</div>
+    </div>    
+    <button id = 'button1' class = 'bg-cyan-500 text-white hover:bg-cyan-700 font-bold py-2 px-3 rounded-lg'>Click Me</button>
+    <div class = "flex justify-center w-300">
+        <div class = 'container w-32 text-center'>
+            <form id='thingForm'>
+                <div class='form-group flex items-center'>
+                    <label for='thing' class='mr-3'>Thing</label>
+                    <input type='text' id='thing' class='form-control my-3 border-2 border-blue-500 focus:border-blue-700'>
+                </div>
+                <div class='form-group flex items-center'>
+                    <label for='image' class='mr-3'>Image</label>
+                    <input type='text' id='image' class='form-control my-3 border-2 border-blue-500 focus:border-blue-700'>
+                </div>
+                <input id = 'addThingButton' type='submit' value='Add' class='bg-cyan-500 text-white hover:bg-cyan-700 font-bold py-2 px-3 rounded-lg'>
+            </form>
+            <table class = 'table table-striped mt-5 w-full'>
+                <thead>
+                    <tr>
+                        <th>Things</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id = 'thingList'></tbody>
+            </table>    </div>
+</div>
+    
 </body>
 
-    
+<script src="main.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "name": "favorite-things",
+  "version": "1.0.0",
+  "main": "/dist/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "tailwind build src/styles.css -o dist/distStyle.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
